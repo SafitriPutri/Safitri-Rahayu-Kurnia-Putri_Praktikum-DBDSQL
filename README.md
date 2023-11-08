@@ -1,3 +1,8 @@
+# Laporan SQL Sample University
+
+## Langkah 1: Membuat Database dan Tabel
+
+```sql
 create database sampel_university;
 use sampel_university;
 
@@ -7,4 +12,6 @@ create table classroom
 	 capacity		numeric(4,0),
 	 primary key (building, room_number)
 	);
- ....
+---
+```
+## dst
