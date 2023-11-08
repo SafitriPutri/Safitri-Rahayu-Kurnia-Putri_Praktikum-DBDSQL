@@ -21,4 +21,5 @@ FROM student
 LEFT JOIN department ON student.dept_name = department.dept_name;
 ```
 Setelah di jalankan maka hasilnya seperti berikut :
-![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/427e6dd2-ebf3-42b6-aa63-0217612ee272)
+![image]
+(https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/427e6dd2-ebf3-42b6-aa63-0217612ee272)
