@@ -26,9 +26,8 @@ SELECT
 FROM student
 JOIN takes ON student.ID = takes.ID;
 ```
-Setelah dijalankan maka hasilnya seperti berikut :
+Setelah dijalankan maka hasilnya seperti berikut : 
 
-![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/427e6dd2-ebf3-42b6-aa63-0217612ee272)
 
 
 ## 3. Menampilkan semua nama student beserta nama department yang memiliki total SKS (total credit) lebih dari 100
