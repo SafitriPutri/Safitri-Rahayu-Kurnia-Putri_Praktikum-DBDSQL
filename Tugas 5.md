@@ -13,7 +13,7 @@ create table classroom
 	);
 --- (dan seterusnya sesuai dengan code yang diberikan)
 ```
-https://drive.google.com/file/d/1GKNNDOIfTS4f3dfVZdmr7suOlx5_MKyL/view?usp=drive_link
+code sql database_universitas : https://drive.google.com/file/d/1GKNNDOIfTS4f3dfVZdmr7suOlx5_MKyL/view?usp=drive_link
 
 ## 2. Menampilkan kolom NIM, Nama, Angkatan, Program_Studi, Seleksi_Masuk Mahasiswa dari database Akademik yang telah dibuat sebelumnya
 ```sql
