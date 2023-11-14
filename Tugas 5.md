@@ -26,7 +26,12 @@ SELECT
 FROM student
 JOIN takes ON student.ID = takes.ID;
 ```
+Penjelasan :
+SQL di atas digunakan untuk mengambil data dari tabel "student" dan "takes" dengan menggabungkan kedua tabel tersebut berdasarkan nilai kolom "ID" yang sama. Hasilnya akan menampilkan kolom-kolom seperti NIM (ID mahasiswa), Nama, Program Studi, Seleksi Masuk, dan Angkatan. Dengan menggunakan query tersebut, user dapat melihat informasi tentang mahasiswa, termasuk nama, program studi, semester seleksi masuk, dan tahun angkatan.
+
 Setelah dijalankan maka hasilnya seperti berikut : 
+
+![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/568d7d73-986c-47ce-8760-23cd6e1d6cb0)
 
 
 
@@ -37,18 +42,9 @@ FROM student s
 JOIN department d ON s.dept_name = d.dept_name
 WHERE s.tot_cred > 100;
 ```
+Penjelasan :
+SQL di atas digunakan untuk mengambil data dari tabel "department" dan "student" dengan menggabungkan kedua tabel tersebut berdasarkan nilai kolom "dept_name" yang sama. Hasilnya akan menampilkan kolom-kolom seperti Program Studi dan Jurusan. Dengan menggunakan query, user dapat melihat daftar program studi beserta jurusan yang terdapat dalam tabel tersebut, yang diurutkan berdasarkan nama program studi dan jurusan.
+
 Setelah dijalankan maka hasilnya seperti berikut :
 
-![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/c8724971-c2f1-4d8f-b453-1caafb463d6a)
-
-
-## 4. Menampilkan nama student dan nama instructor yang bekerja pada department yang sama
-```sql
-SELECT s.name AS student_name, i.name AS instructor_name
-FROM student s
-JOIN instructor i ON s.dept_name = i.dept_name;
-```
-Setelah dijalankan maka hasilnya seperti berikut :
-
-![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/1c8ffeef-0736-49e5-af78-9533a0775bd6)
-
+![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/f1390ae8-f8d7-4d13-9791-ffdd284aa91e)
