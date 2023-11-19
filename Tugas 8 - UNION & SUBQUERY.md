@@ -46,9 +46,7 @@ Perintah 6.9
 
 ### 5. Tampilkan NIM, NAMA, JENIS_KELAMIN, KOTA LAHIR dan ANGKATAN dari Mahasiswa Angkatan 2015 dan dari Mahasiswa_Pindahan tetapi kecuali Mahasiswa_Pindahan yang memiliki Kota Lahir dengan inisial M urutkan berdasarkan NIM.
 
-
-
-
+----------------
 ### Jawaban
 ### 1. Pertama membuat code sql dari desain sql berikut :
 ![image](https://github.com/SafitriPutri/Safitri-Rahayu-Kurnia-Putri_Praktikum-DBDSQL/assets/117289241/31040a01-7180-41c9-995f-b391b175e4e4)
